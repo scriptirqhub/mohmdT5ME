@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN",
+   Name = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN//مع التعاون T5_me",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN",
+   LoadingTitle = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN//مع التعاون T5_me",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
 })
 local args = {
     [1] = "RolePlayBio",
-    [2] = "💯🇮🇶سـكـربـت الـمـطـور MOHMD_BROOKHAVEN🇮🇶💯//with t5_me"
+    [2] = "💯🇮🇶سـكـربـت الـمـطـور MOHMD_BROOKHAVEN🇮🇶💯"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
