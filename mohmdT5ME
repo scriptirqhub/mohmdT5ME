@@ -1,0 +1,211 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN",
+   LoadingSubtitle = "جـار الـتـحـمـيـل.......",
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "9.0ver", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "💯🇮🇶سـكـربـت الـمـطـور MOHMD_BROOKHAVEN🇮🇶💯//with t5_me"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "بـسـم الـلـه";
+    Text = "تم تفعيل بنجاح"; -- ARAB TEAM
+    Duration = 5;
+})
+
+
+
+local Tab = Window:CreateTab("سـكـربـتـات تشتغل على كل مابات") -- Title, Image
+
+local Section = Tab:CreateSection("السكـربـتات : ")
+
+local Button = Tab:CreateButton({
+   Name = "سـكربـت طـيران 🪽",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AshleyCanis/FlyJeon/main/JeonFly"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت رقـصـات",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Baseplate-Fe-All-Emote-7386"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Infinite yield",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Universal",
+   Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-no-byfron-ui-11288"))()  
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت GhostHup 👻",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+   end,
+})
+
+local Tab = Window:CreateTab("سـكـربـتـات مـاب الـبـيـوت") -- Title, Image
+
+local Section = Tab:CreateSection("السكـربـتات : ")
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الهـلال (الرحمه) 🌙",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "R4D ☠️",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت Astri X",
+   Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()
+   end, 
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Sander 🩸",
+   Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewVersion/main/sanderX')))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سـكـربـت نـسـخ سـكـنات ✨",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الاجسام راس فضائي+خصر والخ.....👾",
+   Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Free-Script-16614"))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت VexHup (يـحتاج مـفتاح) 🤷🏻‍♂️",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/discord.com/invite/3NN5zTW7h2"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Brookhaven 🏠",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/TrollGuiMaker/f0rtuit0us-hub/refs/heads/main/old"))()
+   end, 
+})
+
+local Tab = Window:CreateTab("سـكـربـتـات قـتـل 🔪") -- Title, Image
+
+local Section = Tab:CreateSection("السكـربـتات : ")
+
+local Button = Tab:CreateButton({
+   Name = "سكربت يطير الناس (كـنـبـهُ) 🔪",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت  يطير اي احد يفعل عليك 😨",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت محد يقدر يطيرك ☄️",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت FBS تـسريع",
+   Callback = function() loadstringloadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سـكربت اخـتفاء",
+   Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سـكربت الـجودة",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
+   end,
+})
+
+local Tab = Window:CreateTab("قريبا") -- Title, Image
+
+local Section = Tab:CreateSection("")
+
+local Section = Tab:CreateSection("")
+
+local Section = Tab:CreateSection("")
+
+Rayfield:Notify({
+   Title = "مـنـوريـن الـسـكـربـت",
+   Content = "جـار تـحـمـيـل..... ",
+   Duration = 5,
+   Image = 9794138570,
+})
+
+Rayfield:Notify({
+   Title = "سـكـربـت الـمـطـور MOHMD_BROOKHAVEN",
+   Content = "تيك/9.0ver",
+   Duration = 15,
+   Image = 9794138570,
+})
