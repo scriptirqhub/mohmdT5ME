@@ -34,8 +34,8 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local args = {
-    [1] = "RolePlayBio",
-    [2] = "سـكـربـت الـمـطـور مـحـمـدُ😰"
+    [1] = "سـكربـت الـمـطـور مـحـمـدُ😰",
+    [2] = "جـديـد🔥"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
