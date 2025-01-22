@@ -38,6 +38,10 @@ local args = {
     [2] = "سـكربـت الـمـطـور مـحـمـدُ😰"
 }
 
+local args = {
+    [1] = "جـديـد🔥",
+    [2] = "RolePlayBio"
+}
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
