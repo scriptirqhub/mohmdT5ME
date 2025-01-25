@@ -220,7 +220,7 @@ local Section = Tab:CreateSection("السكربتـات :")
 
 
 local Button = Tab:CreateButton({
-   Name = "سكربت المطوره جيون🐱",
+   Name = "سكربت المطور جيون🐱",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-JG-26301"))()
    end,
