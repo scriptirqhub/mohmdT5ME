@@ -38,7 +38,21 @@ local args = {
     [2] = "سۣۗـۙـكۣۗـۙـربۣۗـۙتۣۗـۙ آلَـمۣۗـۙـطۣۗـۙـوُر مۣۗـۙـحۣۗـۙـمۣۗـۙـدٌ🇮🇶🌊"
 }
 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "يـاقـالـع بـاب خـيـبـر";
+    Text = "✅تم تفعيل بنجاح✅"; -- ARAB TEAM
+    Duration = 5;
+})
+
 local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌")
+
+local Section = Tab:CreateSection("شـكـر خـاص لـ🪐")
+
+local Section = Tab:CreateSection("حـسـيـن دنـس💉")
+
+local Section = Tab:CreateSection("هـو مـعـلـمـي وقـدوتـي ومـاكـان راح يـصـيـر هـذا الـسـكـربـت بـدون حـسـيـن دنـس🔫")
 
 
 local Button = Tab:CreateButton({
@@ -58,15 +72,9 @@ setclipboard("38c_j3")
 local Button = Tab:CreateButton({
    Name = "اضـغـط لـنـسـخ حـسـابـي سـيـرفـري الـديـسـكـورد✈️",
    Callback = function()
-setclipboard("OLKT2")
+setclipboard("https://discord.gg/YScqRSU2")
    end,
 })
-
-local Section = Tab:CreateSection("شـكـر خـاص لـ🪐")
-
-local Section = Tab:CreateSection("حـسـيـن دنـس💉")
-
-local Section = Tab:CreateSection("هـو مـعـلـمـي وقـدوتـي ومـاكـان راح يـصـيـر هـذا الـسـكـربـت بـدون حـسـيـن دنـس🔫")
 
 
 local Tab = Window:CreateTab("🏠BROOKHAVEN🏠") -- Title, Image
