@@ -39,7 +39,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
-wait(60.0)
+wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
     Title = "يـاقـالـع بـاب خـيـبـر";
     Text = "✅تم تفعيل بنجاح✅"; -- ARAB TEAM
