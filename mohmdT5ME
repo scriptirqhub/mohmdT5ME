@@ -43,7 +43,7 @@ wait(60.0)
 game.StarterGui:SetCore("SendNotification", {
     Title = "يـاقـالـع بـاب خـيـبـر";
     Text = "✅تم تفعيل بنجاح✅"; -- ARAB TEAM
-    Duration = 60;
+    Duration = 5;
 })
 
 local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌")
