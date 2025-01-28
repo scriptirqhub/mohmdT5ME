@@ -279,9 +279,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت المطوره اشلي✨",
+   Name = "سكربت المطوره اشلي✨(غير متوفر) ",
    Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Snake-Hub-25887"))()
+
    end,
 })
 
