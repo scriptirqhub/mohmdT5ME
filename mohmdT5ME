@@ -48,6 +48,8 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌")
 
+local Section = Tab:CreateSection("الـمـطـور مـعـتـزل😐")
+
 local Section = Tab:CreateSection("شـكـر خـاص لـ🪐")
 
 local Section = Tab:CreateSection("حـسـيـن دنـس💉")
@@ -138,6 +140,13 @@ local Button = Tab:CreateButton({
    Name = "R4D ☠️",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "حـلـو جـربـو💥",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
    end,
 })
 
