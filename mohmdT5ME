@@ -168,6 +168,14 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "سكربت كامرة 📷 ",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mohamed18899/Vew/main/Vew"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "سـكربت اخـتفاء✨",
    Callback = function()
 
