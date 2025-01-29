@@ -425,7 +425,57 @@ local Section = Tab:CreateSection("😍-دمــج الــشــعـور-😍")
 local Section = Tab:CreateSection("⬛-الـدمـج الاسـود-⬛")
 
 local Button = Tab:CreateButton({
-   Name = "-اضغط لدمج الاسود-",
+   Name = "⬛-اضغط لدمج الاسود-⬛",
+   Callback = function()
+local args = {
+    [1] = "wearWalkStyle",
+    [2] = 15294026484
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "⬛-اضغط لتكمله-⬛",
+   Callback = function()
+local args = {
+    [1] = "wearWalkStyle",
+    [2] = 15848163279
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "⬛-اضغط لتكمله-⬛",
+   Callback = function()
+local args = {
+    [1] = "wearWalkStyle",
+    [2] = 16127830905
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "⬛-اضغط لتكمله-⬛",
+   Callback = function()
+local args = {
+    [1] = "wearWalkStyle",
+    [2] = 16127830905
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+   end,
+})
+
+local Section = Tab:CreateSection("🟫-الـدمـج الـبـنـي-🟫")
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لدمج البني-",
    Callback = function()
    end,
 })
@@ -453,15 +503,6 @@ local Button = Tab:CreateButton({
    Callback = function()
    end,
 })
-
-local Button = Tab:CreateButton({
-   Name = "-اضغط لتكمله-",
-   Callback = function()
-   end,
-})
-
-
-
 
 
 
