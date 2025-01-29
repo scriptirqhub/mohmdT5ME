@@ -46,7 +46,7 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 30.0;
 })
 
-local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌")
+local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌") -- Title, Image
 
 local Section = Tab:CreateSection("شـكـر خـاص لـ🪐")
 
@@ -243,7 +243,19 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Tab = Window:CreateTab("الاجـسـام💀") -- Title, Image
 
+local Button = Tab:CreateButton({
+   Name = "kroblox او الـرجـل الـيـمـنـه🫀",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "kroblox او الـرجـل الـيـسـره🫀",
+   Callback = function()
+   end,
+})
 
 local Tab = Window:CreateTab("سـكـربـتـات مـطـوريـن اخـريـن🚀") -- Title, Image
 
