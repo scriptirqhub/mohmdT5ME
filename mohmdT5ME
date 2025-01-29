@@ -243,7 +243,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("💀-الاجــــســــام-💀") -- Title, Image
+local Tab = Window:CreateTab("💀-الــســكــن-💀") -- Title, Image
 
 local Section = Tab:CreateSection("🌹-الارجـــل-🌹")
 
@@ -419,6 +419,50 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 
    end,
 })
+
+local Section = Tab:CreateSection("😍-دمــج الــشــعـور-😍")
+
+local Section = Tab:CreateSection("⬛-الـدمـج الاسـود-⬛")
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لدمج الاسود-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لتكمله-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لتكمله-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لتكمله-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لتكمله-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-اضغط لتكمله-",
+   Callback = function()
+   end,
+})
+
+
+
+
 
 
 
