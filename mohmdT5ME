@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "سـكـربـت الـمـطـور مـحـمـدٌ🪓🔥",
+   Name = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "مــنــور/ه✨✨",
+   LoadingTitle = "✨-مــنــور/ه-✨",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
    Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
 })
 local args = {
     [1] = "RolePlayBio",
-    [2] = "سۣۗـۙـكۣۗـۙـربۣۗـۙتۣۗـۙ آلَـمۣۗـۙـطۣۗـۙـوُر مۣۗـۙـحۣۗـۙـمۣۗـۙـدٌ (شۣۗـۙيۣۗہعۣۗـۙهۣۗہ)🇮🇶🔪"
+    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍ-🌊"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -46,71 +46,71 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 30.0;
 })
 
-local Tab = Window:CreateTab("مـعـلـومـات الـمـطـور✌") -- Title, Image
+local Tab = Window:CreateTab("✌-مـعـلـومـات الـمـطـور-✌") -- Title, Image
 
-local Section = Tab:CreateSection("شـكـر خـاص لـ🪐")
+local Section = Tab:CreateSection("🪐-شـكـر خـاص لـ-🪐")
 
-local Section = Tab:CreateSection("حـسـيـن دنـس💉")
+local Section = Tab:CreateSection("💉-حـسـيـن دنـس-💉")
 
-local Section = Tab:CreateSection("هـو مـعـلـمـي وقـدوتـي ومـاكـان راح يـصـيـر هـذا الـسـكـربـت بـدون حـسـيـن دنـس🔫")
+local Section = Tab:CreateSection("🔫-هـو مـعـلـمـي وقـدوتـي ومـاكـان راح يـصـيـر هـذا الـسـكـربـت بـدون حـسـيـن دنـس-🔫")
 
 
 local Button = Tab:CreateButton({
-   Name = "اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس✨",
+   Name = "✨-اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس-✨",
    Callback = function()
 setclipboard("OLKT2")
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "اضـغـط لـنـسـخ حـسـابـي تـيـك تـوك🔪",
+   Name = "🔪-اضـغـط لـنـسـخ حـسـابـي تـيـك تـوك-🔪",
    Callback = function()
 setclipboard("38c_j3")
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "اضـغـط لـنـسـخ حـسـابـي سـيـرفـري الـديـسـكـورد✈️",
+   Name = "✈️-اضـغـط لـنـسـخ حـسـابـي سـيـرفـري الـديـسـكـورد-✈️",
    Callback = function()
 setclipboard("https://discord.gg/YScqRSU2")
    end,
 })
 
 
-local Tab = Window:CreateTab("🏠BROOKHAVEN🏠") -- Title, Image
+local Tab = Window:CreateTab("🏠-BROOKHAVEN-🏠") -- Title, Image
 
-local Section = Tab:CreateSection("سـكـربـتات مـتـنـوعـه💉 :")
+local Section = Tab:CreateSection("💉-سـكـربـتات مـتـنـوعـه-💉 :")
 
 local Button = Tab:CreateButton({
-   Name = "سـكربـت طـيران🌿",
+   Name = "🌿-سـكربـت طـيران-🌿",
    Callback = function()
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "طـيـران سـيـاره🪐",
+   Name = "🪐-طـيـران سـيـاره-🪐",
    Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-Car-Mobile-gui-11884"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت ادمن🔥",
+   Name = "🔥-سكربت ادمن-🔥",
    Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() 
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت Universal💯",
+   Name = "💯-سكربت Universal-💯",
    Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-no-byfron-ui-11288"))()  
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت رقـصـات💃",
+   Name = "💃-سكربت رقـصـات-💃",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Baseplate-Fe-All-Emote-7386"))()
    end,
@@ -118,42 +118,42 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Baseplate-Fe-All-Emote-7386"
 
 
 local Button = Tab:CreateButton({
-   Name = "سـكـربـت نـسـخ سـكـنات ✨",
+   Name = "✨-سـكـربـت نـسـخ سـكـنات-✨",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))() 
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت GhostHup 👻",
+   Name = "👻-سكربت GhostHub-👻",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "R4D ☠️",
+   Name = "☠️-R4D-☠️",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))() 
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "حـلـو جـربـو💥",
+   Name = "💥-حـلـو جـربـو-💥",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت Astri X🌊 (غير شغال)",
+   Name = "🌊-سكربت Astri X (غير شغال)-🌊",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()
    end, 
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت Sander 🩸",
+   Name = "💢-سكربت Sander-💢",
    Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewVersion/main/sanderX')))()
    end,
@@ -161,40 +161,40 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewV
 
 
 local Button = Tab:CreateButton({
-   Name = "سكربت VexHup (يـحتاج مـفتاح) 🤷🏻‍♂️",
+   Name = "🤷‍♂️-سكربت VexHup (يـحتاج مـفتاح)-🤷‍♂️",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/discord.com/invite/3NN5zTW7h2"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت كامرة 📷 ",
+   Name = "📷-سكربت كامرة-📷 ",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mohamed18899/Vew/main/Vew"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سـكربـت قـفـل الـشـاشـه🔒",
+   Name = "🔒-سـكربـت قـفـل الـشـاشـه-🔒",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mohamed18899/Scren-Lok/main/Scren%20Lok"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سـكربت الـجودة😰",
+   Name = "😰-سـكربت الـجودة-😰",
    Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
    end,
 })
 
 
-local Section = Tab:CreateSection("عـركـات✨")
+local Section = Tab:CreateSection("✨-عـركـات-✨")
 
 
 
 local Button = Tab:CreateButton({
-   Name = "صــــــــــــمــــــــــــلـــــــــــــــه💯",
+   Name = "💯-صــــــــــــمــــــــــــلـــــــــــــــه-💯",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
    end,
@@ -202,50 +202,50 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/
 
 
 local Button = Tab:CreateButton({
-   Name = "سـكـربـت جـ**😉",
+   Name = "😉-سـكـربـت جـ**-😉",
    Callback = function()
 loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت الهـلال (الرحمه) 🌙",
+   Name = "🌙-سكربت الهـلال (الرحمه)-🌙",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت يطير الناس (كـنـبـهُ) 🔪",
+   Name = "🔪-سكربت يطير الناس (كـنـبـهُ)-🔪",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت يطير اي احد يفعل عليك 😨",
+   Name = "😨-سكربت يطير اي احد يفعل عليك-😨",
    Callback = function()
    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سـكـربـت الـرحـمـه الازرق💎",
+   Name = "💎-سـكـربـت الـرحـمـه الازرق-💎",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/refs/heads/main/VR7-ON-TOP"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "سكربت محد يقدر يطيرك ☄️",
+   Name = "☄️-سكربت محد يقدر يطيرك-☄️",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
    end,
 })
 
-local Tab = Window:CreateTab("الاجـسـام💀") -- Title, Image
+local Tab = Window:CreateTab("💀-الاجــــســــام-💀") -- Title, Image
 
-local Section = Tab:CreateSection("الارجـل :")
+local Section = Tab:CreateSection("🌹-الارجـــل-🌹")
 
 
 
@@ -332,7 +332,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
    end,
 })
 
-local Section = Tab:CreateSection("الارئـــــــس : ")
+local Section = Tab:CreateSection("👨-الارئـــــــس-👨")
 
 
 
@@ -422,9 +422,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 
 
 
-local Tab = Window:CreateTab("تـــــــــــنـوع🤤") -- Title, Image
+local Tab = Window:CreateTab("🤤-تـــــــــــنـوع-🤤") -- Title, Image
 
-local Section = Tab:CreateSection("اضـغـط عـلـى رقـم الـبـيـت لاخـذ تـحـكم😾")
+local Section = Tab:CreateSection("😾-اضـغـط عـلـى رقـم الـبـيـت لاخـذ تـحـكم-😾")
 
 local Button = Tab:CreateButton({
    Name = "🔥-بـيـت رقـم 1-🔥",
