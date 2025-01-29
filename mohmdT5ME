@@ -267,7 +267,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂️الـرجـل الـيـسـره -Lift Korblox-🧍‍♂️",
+   Name = "🧍‍♂الـرجـل الـيـسـره -Left Korblox-🧍‍♂",
    Callback = function()
 
 local args = {
@@ -288,7 +288,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂️-رجـل الـرول-🧍‍♂️",
+   Name = "🧍‍♂-Logs Blockey Girl-🧍‍♂",
    Callback = function()
 local args = {
     [1] = "CharacterChange",
@@ -308,7 +308,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂️-Logs Blockey Girl-🧍‍♂️",
+   Name = "🧍‍♂-رجـل الـرول-🧍‍♂",
    Callback = function()
 local args = {
     [1] = "CharacterChange",
