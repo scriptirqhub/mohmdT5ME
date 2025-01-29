@@ -852,3 +852,29 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t")
 })
 
 local Section = Tab:CreateSection("😂-تـعـبـت-😂")
+
+local Section = Tab:CreateSection("😋-تـــــــنــــــوع-😋")
+
+local Button = Tab:CreateButton({
+   Name = "👍-ازاله الاشياء من الانفنتوري-👍",
+   Callback = function()
+local args = {
+    [1] = "ClearAllTools"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🚀-اخذ كنبهٌ-🚀",
+   Callback = function()
+local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+   end,
+})
+
