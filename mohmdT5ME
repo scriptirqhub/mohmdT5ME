@@ -293,7 +293,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂-Logs Blockey Girl-🧍‍♂",
+   Name = "🧍‍♂️-Logs Blockey Girl-🧍‍♂️",
    Callback = function()
 local args = {
     [1] = "CharacterChange",
@@ -313,7 +313,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂-رجـل الـرول-🧍‍♂",
+   Name = "🧍‍♂️-رجـل الـرول-🧍‍♂️",
    Callback = function()
 local args = {
     [1] = "CharacterChange",
@@ -339,24 +339,84 @@ local Section = Tab:CreateSection("الارئـــــــس : ")
 local Button = Tab:CreateButton({
    Name = "👨-الـراس الـفـضـائي (الايـمـو)-👨",
    Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 3210773801
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "👨-راس الـكـوبـي (الـسـلـنـدر)-👨",
    Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 746767604
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "👨-الـراس الـمـخـفـي (Headless)-👨",
    Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 134082579
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "👨-الـعـيـون الـزرگـه-👨",
    Callback = function()
+local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 16580493236
+    },
+    [3] = "Roblox20"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+
    end,
 })
 
