@@ -245,8 +245,13 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("الاجـسـام💀") -- Title, Image
 
+local Section = Tab:CreateSection("الارجـل :")
+
+
+
+
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂الـرجـل الـيـمـنـه -Right Korblox-🧍‍♂",
+   Name = "🧍‍♂️-الـرجـل الـيـمـنـه (Right)-🧍‍♂️",
    Callback = function()
 
 local args = {
@@ -267,7 +272,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 local Button = Tab:CreateButton({
-   Name = "🧍‍♂الـرجـل الـيـسـره -Left Korblox-🧍‍♂",
+   Name = "🧍‍♂️-الـرجل الـيـسـره (Left)-🧍‍♂️",
    Callback = function()
 
 local args = {
@@ -326,6 +331,36 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
    end,
 })
+
+local Section = Tab:CreateSection("الارئـــــــس : ")
+
+
+
+local Button = Tab:CreateButton({
+   Name = "👨-الـراس الـفـضـائي (الايـمـو)-👨",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👨-راس الـكـوبـي (الـسـلـنـدر)-👨",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👨-الـراس الـمـخـفـي (Headless)-👨",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👨-الـعـيـون الـزرگـه-👨",
+   Callback = function()
+   end,
+})
+
+
 
 local Tab = Window:CreateTab("سـكـربـتـات مـطـوريـن اخـريـن🚀") -- Title, Image
 
