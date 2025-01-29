@@ -465,7 +465,7 @@ local Button = Tab:CreateButton({
    Callback = function()
 local args = {
     [1] = "wearWalkStyle",
-    [2] = 16127830905
+    [2] = 15535076528
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
