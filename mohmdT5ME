@@ -607,6 +607,11 @@ local Section = Tab:CreateSection("👻-(لازم يـكـون عـنـدك قـ
 local Button = Tab:CreateButton({
    Name = "⚠️-اضغط لتمكن من تشغيل الاغاني-⚠️",
    Callback = function()
+local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
    end,
 })
 
@@ -615,7 +620,7 @@ local Button = Tab:CreateButton({
    Callback = function()
 local args = {
     [1] = "PickingScooterMusicText",
-    [2] = ""
+    [2] = "7348150704"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
