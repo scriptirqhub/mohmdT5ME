@@ -575,6 +575,78 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireSe
 
 local Tab = Window:CreateTab("🤤-تـــــــــــنـوع-🤤") -- Title, Image
 
+local Section = Tab:CreateSection("😋-تـــــــنــــــوع-😋")
+
+local Button = Tab:CreateButton({
+   Name = "👍-ازاله الاشياء من الانفنتوري-👍",
+   Callback = function()
+local args = {
+    [1] = "ClearAllTools"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🚀-اخذ كنبهٌ-🚀",
+   Callback = function()
+local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+   end,
+})
+
+local Section = Tab:CreateSection("💃-اغـانـي-💃")
+
+local Section = Tab:CreateSection("👻-(لازم يـكـون عـنـدك قـيـم بـاس الاغـانـي)-👻")
+
+local Button = Tab:CreateButton({
+   Name = "⚠️-اضغط لتمكن من تشغيل الاغاني-⚠️",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🥵-يامتيكرس ساي-🥵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = ""
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🎀-الحمدلله الحمدلله-🎀",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "7609175072"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🌹-استخفر الله استخفر الله يارب توب عليه-🌹",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "9108676586"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+
 local Section = Tab:CreateSection("😾-اضـغـط عـلـى رقـم الـبـيـت لاخـذ تـحـكم-😾")
 
 local Button = Tab:CreateButton({
@@ -850,31 +922,3 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
    end,
 })
-
-local Section = Tab:CreateSection("😂-تـعـبـت-😂")
-
-local Section = Tab:CreateSection("😋-تـــــــنــــــوع-😋")
-
-local Button = Tab:CreateButton({
-   Name = "👍-ازاله الاشياء من الانفنتوري-👍",
-   Callback = function()
-local args = {
-    [1] = "ClearAllTools"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "🚀-اخذ كنبهٌ-🚀",
-   Callback = function()
-local args = {
-    [1] = "PickingTools",
-    [2] = "Couch"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-   end,
-})
-
