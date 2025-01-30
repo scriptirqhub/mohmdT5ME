@@ -605,21 +605,10 @@ local Section = Tab:CreateSection("💃-اغـانـي-💃")
 local Section = Tab:CreateSection("👻-(لازم يـكـون عـنـدك قـيـم بـاس الاغـانـي)-👻")
 
 local Button = Tab:CreateButton({
-   Name = "⚠️-اضغط لتمكن من تشغيل الاغاني-⚠️",
+   Name = "⚠️-اضغط لتمكن من تشغيل الاغاني وذا تريد ازاله السكوتر العالق رست-⚠️",
    Callback = function()
 local args = {
     [1] = "SkateBoard"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⚠️-ازاله الاغاني-⚠️",
-   Callback = function()
-local args = {
-    [1] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
