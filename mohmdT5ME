@@ -628,6 +628,31 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
+   Name = "🥵-ارسل كلمه کْـ*سِ وسوف تلحس کْـ*سِ ان شاء الله-🥵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "6536444735"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🥵-ياگواد ياقُحًـ*بًهّ يَآحًشُرهّ-🥵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "8701632845"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "🎀-الحمدلله الحمدلله-🎀",
    Callback = function()
 local args = {
