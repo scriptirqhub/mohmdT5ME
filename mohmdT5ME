@@ -616,6 +616,18 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
+   Name = "⚠️-ازاله الاغاني-⚠️",
+   Callback = function()
+local args = {
+    [1] = ""
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "🥵-يامتيكرس ساي-🥵",
    Callback = function()
 local args = {
