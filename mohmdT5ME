@@ -651,6 +651,65 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "🎵-موسيقى-🎵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "17422074849"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🎵-موسيقى (طربني وموت اذني)-🎵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "4776398821"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👍-اغنيه اجنبيه-👍",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "6529070845"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👍-اغنيه اجنبيه-👍",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "9042393752"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "👍-اغنيه اجنبيه-👍",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "9087418452"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "🎀-الحمدلله الحمدلله-🎀",
@@ -676,17 +735,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "👍-اغنيه اجنبيه-👍",
-   Callback = function()
-local args = {
-    [1] = "PickingScooterMusicText",
-    [2] = "9087418452"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
-   end,
-})
 
 
 local Section = Tab:CreateSection("😾-اضـغـط عـلـى رقـم الـبـيـت لاخـذ تـحـكم-😾")
