@@ -677,7 +677,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
-   Name = "👍-اغنيه اجنبيه-👍",
+   Name = "🎵-اغنيه اجنبيه-🎵",
    Callback = function()
 local args = {
     [1] = "PickingScooterMusicText",
@@ -689,7 +689,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
-   Name = "👍-اغنيه اجنبيه-👍",
+   Name = "🎵-اغنيه اجنبيه-🎵",
    Callback = function()
 local args = {
     [1] = "PickingScooterMusicText",
@@ -701,7 +701,44 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
-   Name = "🎀-الحمدلله الحمدلله-🎀",
+   Name = "🎵-صوت مبايل اندرويد-🎵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = ""
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🎵-صفاره انضار-🎵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "8379374771"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "🎵-هديها هديها شوي-🎵",
+   Callback = function()
+local args = {
+    [1] = "PickingScooterMusicText",
+    [2] = "7644757406"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "🎵-الحمدلله الحمدلله-🎵",
    Callback = function()
 local args = {
     [1] = "PickingScooterMusicText",
@@ -713,7 +750,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Button = Tab:CreateButton({
-   Name = "🌹-استخفر الله استخفر الله يارب توب عليه-🌹",
+   Name = "🎵-استخفر الله استخفر الله يارب توب عليه-🎵",
    Callback = function()
 local args = {
     [1] = "PickingScooterMusicText",
@@ -723,8 +760,6 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):FireServer(unpack(args))
    end,
 })
-
-
 
 local Section = Tab:CreateSection("😾-اضـغـط عـلـى رقـم الـبـيـت لاخـذ تـحـكم-😾")
 
