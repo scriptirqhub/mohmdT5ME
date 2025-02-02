@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
 })
 local args = {
     [1] = "RolePlayBio",
-    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍ-🌊"
+    [2] = "(اسم السكربت BROOKHAVEN IRAQ)🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -146,7 +146,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "🌊-سكربت Astri X (غير شغال)-🌊",
+   Name = "🌊-سكربت Astri X-🌊",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()
    end, 
