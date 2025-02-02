@@ -69,13 +69,6 @@ setclipboard("38c_j3")
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "✈️-اضـغـط لـنـسـخ حـسـابـي سـيـرفـري الـديـسـكـورد-✈️",
-   Callback = function()
-setclipboard("https://discord.gg/YScqRSU2")
-   end,
-})
-
 
 local Tab = Window:CreateTab("🏠-BROOKHAVEN-🏠") -- Title, Image
 
