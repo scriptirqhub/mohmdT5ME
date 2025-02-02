@@ -1030,11 +1030,3 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
    end,
 })
-
-local Tab = Window:CreateTab("🔥-قــريـبا-🔥") -- Title, Image
-
-local Section = Tab:CreateSection("❤-القائمه بتكون عباره عن اشياء تصنع منها جدار-❤")
-
-local Section = Tab:CreateSection("❤-مثل جدار طفايات وكذا مثل ردز اذا تذكرون وبس اتمنى يعجبكم التحديث-❤")
-
-local Section = Tab:CreateSection("❤-التحديث يوم الثنين او الاربعاء ان شاء الله-❤")
