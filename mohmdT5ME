@@ -38,6 +38,15 @@ local args = {
     [2] = "(اسم السكربت BROOKHAVEN IRAQ)🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
 }
 
+wait()
+
+local args = {
+    [1] = "PickingRPBioColor",
+    [2] = nil --[[Color3]]
+}
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eColo1r"):FireServer(unpack(args))
+
+
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
