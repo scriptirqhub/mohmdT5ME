@@ -34,7 +34,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local args = {
-    [1] = "PickingRPBioColor",
+    [1] = "RolePlayBio",
     [2] = "(اسم السكربت BROOKHAVEN IRAQ)🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
 }
 
