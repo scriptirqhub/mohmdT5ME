@@ -76,12 +76,6 @@ setclipboard("https://discord.gg/YScqRSU2")
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "شنو سكربت نجمه مجانيه؟؟ ترا ماتبين ولا الاغاني وحتا الـvip كلها جذب الله وكيلك",
-   Callback = function()
-   end,
-})
-
 
 local Tab = Window:CreateTab("🏠-BROOKHAVEN-🏠") -- Title, Image
 
@@ -1042,3 +1036,7 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
    end,
 })
+
+local Tab = Window:CreateTab("🔥-قــريـبا-🔥") -- Title, Image
+
+local Section = Tab:CreateSection("❤-القائمه بتكون عباره عن اشياء تصنع منها جدار مثل جدار ضوء وكذا اتمنى تعجبكم-❤")
