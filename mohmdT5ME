@@ -15,7 +15,7 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 
 
-wait(2.0)
+wait(5.0)
 
 local args = {
     [1] = "RolePlayName",
