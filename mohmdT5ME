@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫 | V4.1",
+   Name = "v4.1 | 🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "✨-مــنــور/ه-✨",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
@@ -414,8 +414,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
    end,
 })
 
-local Section = Tab:CreateSection("مو بس ذني اكو بعد هواي بس بعدني جاي شتغل عليهن :)")
-
 
 local Section = Tab:CreateSection("🧍‍♂️-اجـسـام بـنـات-🧍‍♂️")
 
@@ -596,6 +594,79 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+   end,
+})
+
+local Section = Tab:CreateSection("🧍‍♂️-اجـسـام اولاد-🧍‍♂️")
+
+
+local Button = Tab:CreateButton({
+   Name = "-S15 skinned-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-Thin-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم كـوبـي-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم رول-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم عـضـلات-",
+   Callback = function()
+   end,
+})
+
+
+local Section = Tab:CreateSection("🧍‍♂️-الاجـسـام الـقـصـيـره-🧍‍♂️")
+
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم الـقـزم-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم قـزم مـتوسـط-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم قـزم گـصـيـر-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم قـزم-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم قـزم تـنـسـيـقـي (بـنـت)-",
+   Callback = function()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "-جـسـم الـهـامـسـتـر-",
+   Callback = function()
    end,
 })
 
