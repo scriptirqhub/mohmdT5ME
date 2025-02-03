@@ -140,9 +140,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "🌊-سكربت Astri X-🌊",
+   Name = "🌊-(غير شغال) Astri X-🌊",
    Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-here-AstroXhub-23818"))()
    end, 
 })
 
