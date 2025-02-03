@@ -79,14 +79,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Tab = Window:CreateTab("✌-مـعـلـومـات الـمـطـور-✌") -- Title, Image
 
-local Section = Tab:CreateSection("اعتذر منك اشلي")
-
-local Button = Tab:CreateButton({
-   Name = "حسابي متبند دوس علمود تنسخ حسابي الثاني",
-   Callback = function()
-setclipboard("Aliabohussen")
-   end,
-})
+local Section = Tab:CreateSection("😇-تـم ازالـه قـائـمـه الـدمـج الـسـبـب : اشـلي قالي انته مقلدني فـ شلتها-😇")
 
 local Section = Tab:CreateSection("🪐-شـكـر خـاص لـ-🪐")
 
@@ -99,6 +92,23 @@ local Button = Tab:CreateButton({
    Name = "✨-اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس-✨",
    Callback = function()
 setclipboard("OLKT2")
+   end,
+})
+
+local Section = Tab:CreateSection("شباب عندي فكره انا حسابي الاساسي تبند")
+
+local Section = Tab:CreateSection("فـ ضيفوني على حسابي الاحطياطي اقبل الكل")
+
+local Section = Tab:CreateSection("ندخل نلعب تنطوني افكار اضيفها ونسولف وهيج")
+
+local Section = Tab:CreateSection("الوقت : الثلاثاء ساعه 3:00")
+
+local Section = Tab:CreateSection("الي يريد ينسخ حسابي هذا جوه")
+
+local Button = Tab:CreateButton({
+   Name = "🔥-اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس الاحـطـيـاطـي-🔥",
+   Callback = function()
+setclipboard("Aliabohussen")
    end,
 })
 
