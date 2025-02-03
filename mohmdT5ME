@@ -79,6 +79,14 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Tab = Window:CreateTab("✌-مـعـلـومـات الـمـطـور-✌") -- Title, Image
 
+local Section = Tab:CreateSection("اعتذر منك اشلي")
+
+local Button = Tab:CreateButton({
+   Name = "حسابي متبند دوس علمود تنسخ حسابي الثاني",
+   Callback = function()
+setclipboard("Aliabohussen")
+   end,
+})
 local Section = Tab:CreateSection("🪐-شـكـر خـاص لـ-🪐")
 
 local Section = Tab:CreateSection("💉-حـسـيـن دنـس-💉")
