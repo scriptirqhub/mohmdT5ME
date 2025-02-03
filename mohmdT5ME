@@ -37,7 +37,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "v4.2 | 🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫",
+   Name = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫 | تحديث السكنات & اعتذار من اشلي",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "✨-مــنــور/ه-✨",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
@@ -864,159 +864,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 })
 
 
+local Tab = Window:CreateTab("✨-سكنات بنات & ولد-✨") -- Title, Image
 
-local Section = Tab:CreateSection("😍-دمــج الــشــعـور-😍")
-
-local Section = Tab:CreateSection("⬛-الـدمـج الاسـود-⬛")
-
-local Button = Tab:CreateButton({
-   Name = "⬛-اضغط لدمج الاسود-⬛",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15294026484
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬛-اضغط لتكمله-⬛",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15848163279
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬛-اضغط لتكمله-⬛",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 16127830905
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬛-اضغط لتكمله-⬛",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15535076528
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("🟫-الـدمـج الـبـنـي-🟫")
-
-local Button = Tab:CreateButton({
-   Name = "🟫-اضغط لدمج البني-🟫",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 14627143022
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "🟫-اضغط لتكمله-🟫",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15294036713
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "🟫-اضغط لتكمله-🟫",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15847969469
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "🟫-اضغط لتكمله-🟫",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15971158257
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Section = Tab:CreateSection("⬜-الـدمـج الابـيـض-⬜")
-
-local Button = Tab:CreateButton({
-   Name = "⬜-اضغط لدمج الابيض-⬜",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 14627127264
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬜-اضغط لتكمله-⬜",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15908583844
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬜-اضغط لتكمله-⬜",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 14808889186
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "⬜-اضغط لتكمله-⬜",
-   Callback = function()
-local args = {
-    [1] = "wearWalkStyle",
-    [2] = 15349539978
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
-   end,
-})
-
+local Section = Tab:CreateSection("الميزه قد التطوير")
 
 local Tab = Window:CreateTab("🤤-تـــــــــــنـوع-🤤") -- Title, Image
 
