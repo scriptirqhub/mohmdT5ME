@@ -140,7 +140,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "🌊-(غير شغال) Astri X-🌊",
+   Name = "🌊-(غير شغال)-🌊",
    Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-here-AstroXhub-23818"))()
    end, 
