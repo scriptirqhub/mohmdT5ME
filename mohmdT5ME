@@ -1,3 +1,39 @@
+local args = {
+    [1] = "RolePlayName",
+    [2] = "جّـآرِ آلَـتٌـحًـمًـيَـلَ......."
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "♨️شُـکْـرآ لَآسِـتٌـخِدٍآمً آلَـسِـکْـربًـتٌ♨️"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+
+wait(2.0)
+
+local args = {
+    [1] = "RolePlayName",
+    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+wait()
+
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "❗-اسم السكربت : brookhaven iraq-❗"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -33,12 +69,6 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local args = {
-    [1] = "RolePlayBio",
-    [2] = "(اسم السكربت BROOKHAVEN IRAQ)🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
 
 wait(0.1)
 game.StarterGui:SetCore("SendNotification", {
