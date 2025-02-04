@@ -876,9 +876,9 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):Fire
 
 local Tab = Window:CreateTab("✨-سكنات بنات & ولد-✨") -- Title, Image
 
-local Section = Tab:CreateSection("الميزه قد التطوير")
+local Section = Tab:CreateSection("الميزه قيد التطوير")
 
-local Section = Tab:CreateSection("⚠️-لاتـسـوي سـبـام عـلـى الـزر وانتضر 20 ثانيه تقريبا-⚠️")
+local Section = Tab:CreateSection("⚠️-لاتـسـوي سـبـام عـلـى الـزر وانتضر 20 ثانيه تقريبا وفرغ السكن حقك قبل لاتضغط-⚠️")
 
 local Section = Tab:CreateSection("👩-سـكـنـات الـبـنـات-👩")
 
