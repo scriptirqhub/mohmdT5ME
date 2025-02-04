@@ -1068,6 +1068,15 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
+wait(0.1)
+
+local args = {
+    [1] = "skintone",
+    [2] = "Institutional white"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+
    end,
 })
 
