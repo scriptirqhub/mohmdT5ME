@@ -37,7 +37,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫 | تحديث السكنات & اعتذار من اشلي",
+   Name = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫 | V1.5",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "✨-مــنــور/ه-✨",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
@@ -79,7 +79,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Tab = Window:CreateTab("✌-مـعـلـومـات الـمـطـور-✌") -- Title, Image
 
-local Section = Tab:CreateSection("😇-تـم ازالـه قـائـمـه الـدمـج الـسـبـب : اشـلي قالي انته مقلدني فـ شلتها-😇")
+local Section = Tab:CreateSection("✅-تـم ارجـاع  الـدمـوج وشـيـصـيـر خـلـي يصير-✅")
 
 local Section = Tab:CreateSection("🪐-شـكـر خـاص لـ-🪐")
 
