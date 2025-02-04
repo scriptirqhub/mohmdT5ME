@@ -95,16 +95,6 @@ setclipboard("OLKT2")
    end,
 })
 
-local Section = Tab:CreateSection("شباب عندي فكره انا حسابي الاساسي تبند")
-
-local Section = Tab:CreateSection("فـ ضيفوني على حسابي الاحطياطي اقبل الكل")
-
-local Section = Tab:CreateSection("ندخل نلعب تنطوني افكار اضيفها ونسولف وهيج")
-
-local Section = Tab:CreateSection("الوقت : الثلاثاء ساعه 3:00")
-
-local Section = Tab:CreateSection("الي يريد ينسخ حسابي هذا جوه")
-
 local Button = Tab:CreateButton({
    Name = "🔥-اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس الاحـطـيـاطـي-🔥",
    Callback = function()
