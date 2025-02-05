@@ -25,6 +25,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "تـشـغـيـل واجـهـه الـمـطـور مـحـمـد الـقـديـمـه",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptirqhub/mohmdT5ME/refs/heads/main/bast2"))()
   	end    
 })
