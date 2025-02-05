@@ -18,7 +18,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "تـشـغـيـل واجـهـه الـمــطـور مـحـمـد الـجـديـده (افـضـل)",
 	Callback = function()
-      	 
+      	 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptirqhub/mohmdT5ME/refs/heads/main/after2"))()
   	end    
 })
 
