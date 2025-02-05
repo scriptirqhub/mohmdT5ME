@@ -6,7 +6,7 @@ local Player = game.Players.LocalPlayer
 		HidePremium = false,
 		SaveConfig = true,
 		ConfigFolder = "OrionTest",
-        IntroText = "جـار لـتـحـمـيـل..."       
+        IntroText = "جـار الـتـحـمـيـل..."       
 })
 
 local Tab = Window:MakeTab({
