@@ -1,1 +1,30 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
 
+local Player = game.Players.LocalPlayer
+  local Window = OrionLib:MakeWindow({
+		Name = "اخــــــــــــتـــــــــــــــيـــــــــــــــار",
+		HidePremium = false,
+		SaveConfig = true,
+		ConfigFolder = "OrionTest",
+        IntroText = "جـار لـتـحـمـيـل..."       
+})
+
+local Tab = Window:MakeTab({
+	Name = "اختار",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "تـشـغـيـل واجـهـه الـمــطـور مـحـمـد الـجـديـده (افـضـل)",
+	Callback = function()
+      	 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "تـشـغـيـل واجـهـه الـمـطـور مـحـمـد الـقـديـمـه",
+	Callback = function()
+      		
+  	end    
+})
