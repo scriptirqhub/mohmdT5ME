@@ -57,7 +57,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://81281757135540",
+  Image = "",
   Size = {40, 40},
   Color = Color3.fromRGB(20, 20, 20),
   Corner = true,
@@ -73,6 +73,11 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 local Main = MakeTab({Name = "✌-مـعـلـومـات الـمـطـور-✌"})
+
+local Image = AddImageLabel(Main, {
+  Name = "👑الافــــضــــل👑",
+  Image = "",
+})
 
 AddButton(Main, {
   Name = "✨-اضـغـط لـنـسـخ حـسـابـي روبـلـوكـس-✨",
