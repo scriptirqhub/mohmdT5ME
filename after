@@ -57,7 +57,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://83880616957929",
+  Image = "rbxassetid://88180636487768",
   Size = {50, 50},
   Color = Color3.fromRGB(20, 20, 20),
   Corner = true,
@@ -76,7 +76,7 @@ local Main = MakeTab({Name = "✌-مـعـلـومـات الـمـطـور-✌"
 
 local Image = AddImageLabel(Main, {
   Name = "👑 الـتــاريــخ 👑",
-  Image = "rbxassetid://83880616957929",
+  Image = "rbxassetid://88180636487768",
 })
 
 AddButton(Main, {
