@@ -1009,6 +1009,14 @@ AddButton(Main, {
   Callback = function()
 
 local args = {
+    [1] = "OCA"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+
+wait(1.0)
+
+local args = {
     [1] = "CharacterChange",
     [2] = {
         [1] = 1,
@@ -1023,7 +1031,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "CharacterChange",
@@ -1040,7 +1048,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1049,7 +1057,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1058,7 +1066,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1067,7 +1075,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1076,7 +1084,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1085,7 +1093,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1094,7 +1102,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1103,7 +1111,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1112,7 +1120,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1121,7 +1129,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1130,7 +1138,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1139,7 +1147,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(5.0)
+wait(1.0)
 
 local args = {
     [1] = "CharacterChange",
@@ -1156,7 +1164,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 
-wait(3.7)
+wait(1.0)
 
 local args = {
     [1] = "CharacterChange",
@@ -1173,7 +1181,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1182,7 +1190,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "wear",
@@ -1191,7 +1199,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
 
-wait(0.1)
+wait(1.0)
 
 local args = {
     [1] = "skintone",
