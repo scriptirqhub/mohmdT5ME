@@ -2007,63 +2007,148 @@ local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند ا�
 AddButton(Main, {
   Name = "I see You",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
+
   end
 })
 
 AddButton(Main, {
   Name = "Sonic.exe",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
+
   end
 })
 
 AddButton(Main, {
   Name = "Tubers93",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
+
   end
 })
 
 AddButton(Main, {
   Name = "Tubers93 2",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
+
   end
 })
 
 AddButton(Main, {
   Name = "John's Laugh",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
   end
 })
 
 AddButton(Main, {
   Name = "Chucky Laugh",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
   end
 })
 
 AddButton(Main, {
   Name = "Horror bell",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
   end
 })
 
 AddButton(Main, {
   Name = "Girl Scream",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
   end
 })
 
 AddButton(Main, {
   Name = "Goofy Scream",
   Callback = function()
-    
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+wait(0.1)
+
   end
 })
 
