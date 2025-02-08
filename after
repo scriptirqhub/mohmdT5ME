@@ -2005,7 +2005,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند الناس بدون قيم باس اغاني👍", "nil"})
 
 AddButton(Main, {
-  Name = "I see You",
+  Name = "‼️-I see You-‼️",
   Callback = function()
 
 local args = {
@@ -2029,7 +2029,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Sonic.exe",
+  Name = "‼️-Sonic.exe-‼️",
   Callback = function()
 
 local args = {
@@ -2053,7 +2053,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Tubers93",
+  Name = "‼️-Tubers93-‼️",
   Callback = function()
 
 local args = {
@@ -2077,7 +2077,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Tubers93 2",
+  Name = "‼️-Tubers93 2-‼️",
   Callback = function()
 
 local args = {
@@ -2101,7 +2101,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "John's Laugh",
+  Name = "‼️-John's Laugh-‼️",
   Callback = function()
 
 local args = {
@@ -2125,7 +2125,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Chucky Laugh",
+  Name = "‼️-Chucky Laugh-‼️",
   Callback = function()
 
 local args = {
@@ -2149,7 +2149,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Horror bell",
+  Name = "‼️-Horror bell-‼️",
   Callback = function()
 
 local args = {
@@ -2173,7 +2173,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Girl Scream",
+  Name = "‼️-Girl Scream-‼️",
   Callback = function()
 
 local args = {
@@ -2197,7 +2197,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 })
 
 AddButton(Main, {
-  Name = "Goofy Scream",
+  Name = "‼️-Goofy Scream-‼️",
   Callback = function()
 
 local args = {
