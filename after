@@ -28,7 +28,7 @@ wait()
 
 local args = {
     [1] = "RolePlayBio",
-    [2] = "❗-اسم السكربت : brookhaven iraq-❗"
+    [2] = "❗-اسم السكربت : 38_j3-❗"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
