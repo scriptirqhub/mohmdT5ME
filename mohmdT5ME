@@ -28,3 +28,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptirqhub/mohmdT5ME/refs/heads/main/bast2"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "سـكـربـت LMO HUB ||تـعـاون الـمـطـور سـيـفَ & مـحـمـدٌ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/S2EXE/LMo/refs/heads/main/LMO%20HUB%20(2).lua"))()
+  	end    
+})
