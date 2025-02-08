@@ -2017,6 +2017,13 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 2663254285,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
@@ -2034,6 +2041,13 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 2496367477,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
@@ -2051,6 +2065,13 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 6129291390,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
@@ -2068,6 +2089,13 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 9032712619,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
@@ -2085,6 +2113,14 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 130759239,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
+
   end
 })
 
@@ -2100,6 +2136,14 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
 
 wait(0.1)
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 132179181,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
@@ -2117,6 +2161,14 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 9065965545,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
+
   end
 })
 
@@ -2133,6 +2185,14 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(un
 
 wait(0.1)
 
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 7861818231,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
+
   end
 })
 
@@ -2148,6 +2208,14 @@ local args = {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
 
 wait(0.1)
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
+    [2] = 528432644,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServer(unpack(args))
 
   end
 })
