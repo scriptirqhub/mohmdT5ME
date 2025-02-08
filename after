@@ -38,7 +38,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServ
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/S2EXE/Gui-/refs/heads/main/Protected_8523176118855058.txt")))()
 MakeWindow({
   Hub = {
-    Title = "تم اضافه اغاني جديده✅| 🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫",
+    Title = "🔫-سـكـربـت الـمـطـور مـحـمـدٌ-🔫",
     Animation = "✨-مــنــور/ه-✨"
   },
   Key = {
@@ -2053,3 +2053,32 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServ
 
   end
 })
+
+AddButton(Main, {
+  Name = "اختـفاء👻",
+  Callback = function()
+
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 6
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+  end
+})
+
+AddButton(Main, {
+  Name = "الغـاء الاخـتفاء🪐",
+  Callback = function()
+
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+  end
+})
+
