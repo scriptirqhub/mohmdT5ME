@@ -1989,7 +1989,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 AddButton(Main, {
-  Name = "🎵-استخفر الله استخفر الله يارب توب عليه-🎵",
+  Name = "🎵-استخفر الله استخفر الله الهم توب عليه-🎵",
   Callback = function()
 
 local args = {
@@ -2001,6 +2001,93 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 
   end
 })
+
+local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند الناس بدون قيم باس اغاني👍", "nil"})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
+AddButton(Main, {
+  Name = "جار العمل",
+  Callback = function()
+    
+  end
+})
+
 
 local Main = MakeTab({Name = "😋-تـــــــنــــــوع-😋"})
 
