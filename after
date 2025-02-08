@@ -19,7 +19,7 @@ wait(5.0)
 
 local args = {
     [1] = "RolePlayName",
-    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
+    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊 | الاسم :"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -28,7 +28,7 @@ wait()
 
 local args = {
     [1] = "RolePlayBio",
-    [2] = "❗-اسم السكربت : 38_j3 iraq-❗"
+    [2] = "❗-38_j3-❗"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
