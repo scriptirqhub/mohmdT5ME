@@ -2002,7 +2002,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
   end
 })
 
-local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند الناس بدون قيم باس اغاني👍", "nil"})
+local Paragraph = AddParagraph(Main, {"🛡-(قيد البرمجه)-🛡", "nil"})
 
 AddButton(Main, {
   Name = "⚠️-اضغط لاخذ سنايبر وحطه بيــدك-⚠️",
