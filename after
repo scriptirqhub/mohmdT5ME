@@ -2005,84 +2005,63 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند الناس بدون قيم باس اغاني👍", "nil"})
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "I see You",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Sonic.exe",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Tubers93",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Tubers93 2",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "John's Laugh",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Chucky Laugh",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Horror bell",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Girl Scream",
   Callback = function()
     
   end
 })
 
 AddButton(Main, {
-  Name = "جار العمل",
-  Callback = function()
-    
-  end
-})
-
-AddButton(Main, {
-  Name = "جار العمل",
-  Callback = function()
-    
-  end
-})
-
-AddButton(Main, {
-  Name = "جار العمل",
-  Callback = function()
-    
-  end
-})
-
-AddButton(Main, {
-  Name = "جار العمل",
+  Name = "Goofy Scream",
   Callback = function()
     
   end
@@ -2142,7 +2121,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServ
 })
 
 AddButton(Main, {
-  Name = "اختـفاء👻",
+  Name = "👻-اختـفاء-👻",
   Callback = function()
 
 local args = {
@@ -2156,7 +2135,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(u
 })
 
 AddButton(Main, {
-  Name = "الغـاء الاخـتفاء🪐",
+  Name = "🪐-الغـاء الاخـتفاء-🪐",
   Callback = function()
 
 local args = {
