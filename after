@@ -2005,7 +2005,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 local Paragraph = AddParagraph(Main, {"اصواط مرعبه تضهر عند الناس بدون قيم باس اغاني👍", "nil"})
 
 AddButton(Main, {
-  Name = "‼️-I see You-‼️",
+  Name = "⚠️-اضغط لاخذ سنايبر وحطه بيــدك-⚠️",
   Callback = function()
 
 local args = {
@@ -2015,7 +2015,13 @@ local args = {
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
 
-wait(0.1)
+  end
+})
+
+
+AddButton(Main, {
+  Name = "‼️-I see You-‼️",
+  Callback = function()
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
@@ -2033,15 +2039,6 @@ AddButton(Main, {
   Callback = function()
 
 local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
-
-local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
     [2] = 2496367477,
     [3] = 1
@@ -2055,15 +2052,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 AddButton(Main, {
   Name = "‼️-Tubers93-‼️",
   Callback = function()
-
-local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
@@ -2081,15 +2069,6 @@ AddButton(Main, {
   Callback = function()
 
 local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
-
-local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
     [2] = 9032712619,
     [3] = 1
@@ -2103,15 +2082,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 AddButton(Main, {
   Name = "‼️-John's Laugh-‼️",
   Callback = function()
-
-local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
@@ -2129,15 +2099,6 @@ AddButton(Main, {
   Callback = function()
 
 local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
-
-local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
     [2] = 132179181,
     [3] = 1
@@ -2151,15 +2112,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 AddButton(Main, {
   Name = "‼️-Horror bell-‼️",
   Callback = function()
-
-local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
@@ -2177,15 +2129,6 @@ AddButton(Main, {
   Callback = function()
 
 local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
-
-local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
     [2] = 7861818231,
     [3] = 1
@@ -2199,15 +2142,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1Gu1nSound1s"):FireServe
 AddButton(Main, {
   Name = "‼️-Goofy Scream-‼️",
   Callback = function()
-
-local args = {
-    [1] = "PickingTools",
-    [2] = "Sniper"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
-
-wait(0.1)
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Sniper.Handle,
