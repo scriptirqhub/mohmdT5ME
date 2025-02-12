@@ -19,7 +19,7 @@ wait(5.0)
 
 local args = {
     [1] = "RolePlayName",
-    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊 | الاسم :"
+    [2] = "🌊-سِـکْـربًـتٌ آلَـمًـطِـوٌر مًـحًـمًـدٍُ-🌊"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -28,7 +28,7 @@ wait()
 
 local args = {
     [1] = "RolePlayBio",
-    [2] = "❗-38_j3-❗"
+    [2] = "❗-آلَآسِمً : er3-❗"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -57,7 +57,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://88180636487768",
+  Image = "rbxassetid://79756063314227",
   Size = {40, 40},
   Color = Color3.fromRGB(20, 20, 20),
   Corner = true,
@@ -75,8 +75,8 @@ game.StarterGui:SetCore("SendNotification", {
 local Main = MakeTab({Name = "✌-مـعـلـومـات الـمـطـور-✌"})
 
 local Image = AddImageLabel(Main, {
-  Name = "👑 الـتــاريــخ 👑",
-  Image = "rbxassetid://88180636487768",
+  Name = "لا افكار ولاشغـف",
+  Image = "rbxassetid://79756063314227",
 })
 
 AddButton(Main, {
