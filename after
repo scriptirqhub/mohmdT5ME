@@ -66,10 +66,11 @@ MinimizeButton({
 })
 
 wait(0.1)
+
 game.StarterGui:SetCore("SendNotification", {
     Title = "يـاالـلـه";
-    Text = "✅تم تفعيل بنجاح✅"; -- ARAB TEAM
-    Duration = 30.0;
+    Text = "✅تم تفعيل بنجاح✅";
+    Duration = 10.0;
 })
 
 local Main = MakeTab({Name = "✌-مـعـلـومـات الـمـطـور-✌"})
@@ -92,7 +93,6 @@ AddButton(Main, {
   setclipboard("Aliabohussen")
   end
 })
-
 
 AddButton(Main, {
   Name = "🔪-اضـغـط لـنـسـخ حـسـابـي تـيـك تـوك-🔪",
