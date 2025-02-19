@@ -1,7 +1,7 @@
--- by Fsploit
--- revamped
--- powered by Ashley Canis
--- arg
+-- اشلي آلَقُحًبًهّ
+-- بًقُتٌ سِکْربًتٌکْ وٌنِطِيَتٌهّ لَصّدٍيَقُيَ
+-- مًآعٌرفُتٌنِيَ؟ 
+-- آنِيَ آلَمًطِوٌر مًحًمًدٍ آلَيَ ضآغُطِکْ
 
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualRoblox/Roblox/main/UI-Libraries/Visual%20Command%20UI%20Library/Source.lua', true))()
 
